@@ -1,0 +1,34 @@
+.button{
+    font-size: 1.4rem;
+    background-color: white;
+    border: none;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+ 
+.button:active{
+    background-color: #ccc;
+}
+ 
+.button.double{
+    grid-column: span 2;
+    background-color: green;
+}
+ 
+.button.triple{
+    grid-column: span 3;
+    background-color: green;
+}
+.button.operation{
+    background-color: #fa8231;
+    color: #fff;
+}
+ 
+.button.operation:active{
+    background-color: #fa8231cc;
+}
